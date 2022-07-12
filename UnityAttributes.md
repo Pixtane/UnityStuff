@@ -22,8 +22,8 @@
 ![Headers Result In Inspector](https://github.com/Pixtane/UnityStuff/blob/main/Images/Headers.png?raw=true)
 ## Spaces
 
-`[Space(20)]` - Make a space between variables, use pixels.
-**Note :** Use them to separeta block of codes in Header or between end of one header and start of another.
+`[Space(20)]` - Make a space between variables, use pixels.<br>
+**Note :** Use them to separate block of codes in Header or between end of one header and start of another.
 
 Example:
 
