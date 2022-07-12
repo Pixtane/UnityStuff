@@ -127,7 +127,7 @@ Example:
 	    [SerializeField] private UnityEvent onSelected = null;    
 	    [SerializeField] private UnityEvent onDeselected = null;
 	}
-> Code example is from this github file : 
-> https://github.com/MetalStormProductions/YoutubeVideos/blob/main/PlayerController.cs
-> Video :
+> Code example is from this github file : <br>
+> https://github.com/MetalStormProductions/YoutubeVideos/blob/main/PlayerController.cs <br>
+> Video : <br>
 > https://www.youtube.com/watch?v=6I4SYU1JU5g
