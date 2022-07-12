@@ -18,7 +18,8 @@
 		public float runSpeed;
 		public float jumpForce;
 		public float dashSpeed;
-
+**Result :**
+![Headers Result In Inspector](https://github.com/Pixtane/UnityStuff/blob/main/Images/Headers.png?raw=true)
 ## Spaces
 
 `[Space(20)]` - Make a space between variables, use pixels.
@@ -31,6 +32,9 @@ Example:
 		public float dashSpeed;
 		[Space(20)]
 		public float jumpForce;
+**Result :**
+![Spaces Result In Inspector](https://github.com/Pixtane/UnityStuff/blob/main/Images/Spaces.png?raw=true)
+
 
 ## Number ranges
 
@@ -41,18 +45,24 @@ Example:
 
 		[Range(0f, 100f)] public float runSpeed;
 		[Range(0f, 75f)] public float dashSpeed = 15f;
+**Result :**
+![Ranges Result In Inspector](https://github.com/Pixtane/UnityStuff/blob/main/Images/Ranges.png?raw=true)
+
 
 ## Tooltips
 
-`[ToolTip("Some stuff")]` - ToolTip for variable.
+`[Tooltip("Some stuff")]` - ToolTip for variable.
 
 **Note :** It only applies to only one next varible. Better place this attribute in previous line to save space and to organize. The next variable will show this message when you place mouse in it inside inspector.
 
 **Example :**
 
-		[ToolTip("Speed for player walk")] public float runSpeed;
-		[ToolTip("Speed of player dashing. The less value the slower is dash. The distance is always the same")]
+		[Tooltip("Speed for player walk")] public float runSpeed;
+		[Tooltip("Speed of player dashing. The less value the slower is dash. The distance is always the same")]
 		public float dashSpeed = 15f;
+**Result :**
+![Ranges Result In Inspector](https://github.com/Pixtane/UnityStuff/blob/main/Images/ToolTips.png?raw=true)
+
 
 ## Enumerators
 
@@ -66,6 +76,8 @@ Example:
 		{	
 			[SerializeField] Games YourBestGame;
 		}
+**Result :**
+![Ranges Result In Inspector](https://github.com/Pixtane/UnityStuff/blob/main/Images/Enum.png?raw=true)
 
 # Script Example
 
@@ -127,7 +139,6 @@ Example:
 	    [SerializeField] private UnityEvent onSelected = null;    
 	    [SerializeField] private UnityEvent onDeselected = null;
 	}
-> Code example is from this github file : <br>
-> https://github.com/MetalStormProductions/YoutubeVideos/blob/main/PlayerController.cs <br>
-> Video : <br>
+> Code example is from this github file : https://github.com/MetalStormProductions/YoutubeVideos/blob/main/PlayerController.cs
+> Video :
 > https://www.youtube.com/watch?v=6I4SYU1JU5g
